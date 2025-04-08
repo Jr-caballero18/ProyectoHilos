@@ -35,6 +35,7 @@ public class RunnableSimple implements Runnable {
                 Logger.getLogger(ThreadSimple.class.getName()).log(Level.SEVERE, null, ex);
 
             }
+            
             System.out.println("hilo: " + getNombre());
         }
         System.out.println("hilo finalizada: " + getNombre());
